@@ -6,11 +6,11 @@
 
 A simple string calculator based on Clean Architecture.
 
-Layers:
-*CORE >>> calculating string expression
-*UI >>> user input handling, calculation result handling
+>Layers:
+* CORE >>> calculating string expression
+* UI >>> user input handling, calculation result handling
 
-Features:
-*simple arithmetic operations (addition, subtraction, multiplication, division)
-*unary subtraction
-*operation's priority assignment
+>Features:
+* simple arithmetic operations (addition, subtraction, multiplication, division)
+* unary subtraction
+* operation's priority assignment
