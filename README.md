@@ -1,7 +1,8 @@
->>>DISCLAIMER BEGINS<<<
-This is a demonstration project. So, it's over-engineered a bit.
-You may run into spagetti inside ;)
->>>DISCLAIMER ENDS<<<
+>>>>>DISCLAIMER
+>>>>>
+>>This is a demonstration project. So, it's over-engineered a bit.
+>>You may run into spagetti inside ;)
+
 
 A simple string calculator based on Clean Architecture.
 
