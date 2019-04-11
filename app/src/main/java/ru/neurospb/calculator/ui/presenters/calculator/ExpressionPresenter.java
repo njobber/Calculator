@@ -53,9 +53,11 @@ public class ExpressionPresenter implements ICalculator.ExpressionPresenter,
     }
     @Override
     public void loadState(Bundle state) {
-        if (state != null)
+        if (state != null) {
             expression.update(state.getString(RAW_EXPRESSION_KEY),
                     state.getBooleanArray(EXPRESSION_FLAGS_KEY));
+            view.showExpression(expression.getRaw().toString());
+        }
     }
 
     //ИМПЛЕМЕНТАЦИЯ: ICalculator.ExpressionPresenter

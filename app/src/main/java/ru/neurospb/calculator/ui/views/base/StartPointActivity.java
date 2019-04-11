@@ -33,6 +33,7 @@ public class StartPointActivity extends AppCompatActivity {
     //OnPause
     //OnStop
     //OnDestroy
+    @Override
     protected void onDestroy() {
         singletonActivity = null;
         calculatorExpressionPresenter = null;
