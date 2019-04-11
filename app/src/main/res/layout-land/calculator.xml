@@ -37,14 +37,14 @@
                 android:layout_gravity="end"
                 android:cursorVisible="false"
                 android:isScrollContainer="true"
-                android:padding="5dp"
+                android:padding="2dp"
                 android:scrollbarAlwaysDrawHorizontalTrack="false"
                 android:scrollbarAlwaysDrawVerticalTrack="false"
                 android:scrollHorizontally="true"
                 android:singleLine="true"
                 android:textColor="@color/colorAccent"
                 android:textIsSelectable="false"
-                android:textSize="48sp"
+                android:textSize="36sp"
                 android:textStyle="bold"
                 tools:text="0" />
 
